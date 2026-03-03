@@ -1,0 +1,18 @@
+Q.2 Difference between break and continue
+Ans: 
+break : exits the loop entirely
+continue: skips remaining code in that iteration and continues the loop
+Loop else Clause :
+Executes only if loop finishes without a break
+
+# Break example
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+
+# Continue example
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
