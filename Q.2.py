@@ -1,3 +1,4 @@
+# part_1
 def find_pairs(numbers, target):
     result = []
     for i in range(len(numbers)):
@@ -10,7 +11,7 @@ print(find_pairs([1,2,3,4,5], 6))
 
 
 
-
+# part_2
 def is_prime(n):
     if n < 2:
         return False
@@ -25,7 +26,7 @@ print(is_prime(10))
 
 
 
-
+# part_3
 def is_prime(n):
     if n < 2:
         return False
